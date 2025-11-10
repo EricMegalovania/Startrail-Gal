@@ -1,0 +1,125 @@
+# Startrail Visual Novel - .gitignore
+
+# Ren'Py generated files
+*.rpyc
+*.rpymc
+*.rpyb
+*.rpa
+game/cache/
+game/saves/
+game/persistent
+log.txt
+errors.txt
+traceback.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Ren'Py Launcher
+renpy/
+launcher/
+rapt/
+web/
+*.app
+*.exe
+*.dmg
+
+# Build outputs
+*.zip
+*.tar.gz
+*.7z
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Large assets (consider using Git LFS)
+# Uncomment if you want to ignore large files
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.mp3
+# *.ogg
+# *.wav
+# *.mp4
+# *.webm
+
+# Private/sensitive files
+game/private/
+*.secret
+.env
+config.private.rpy
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Test files
+test_results/
+coverage/
+.coverage
+*.cover
+
+# Packaging
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Android/iOS builds (if applicable)
+*.apk
+*.aab
+*.ipa
+rapt-*/
+ios-*/
+
+# Steam build files
+steam_appid.txt
+steam_api.dll
